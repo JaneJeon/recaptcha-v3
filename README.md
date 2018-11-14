@@ -3,6 +3,8 @@ Protect your endpoints by securing it with a reCAPTCHA! This library supports ve
  integrates with `express`.
 
 ## Usage
+Before using this library, you must have already set the environment variables `RECAPTCHA_V2_PUBLIC` if you want to use the v2 verifier or `RECAPTCHA_V3_PUBLIC` for the v3 verifier.
+
 v2:
 ```javascript
 const { v2 } = require('recaptcha3')
