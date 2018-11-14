@@ -1,8 +1,8 @@
 {
   "name": "recaptcha3",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Validate reCAPTCHA v2 and v3",
-  "keywords": ["google", "recaptcha", "v2", "v3", "invisible"],
+  "keywords": ["google", "recaptcha", "v2", "v3", "spam", "express"],
   "main": "lib/verify.js",
   "repository": "JaneJeon/recaptcha-v3",
   "author": "Jane Jeon <JaneJeon9719@gmail.com>",
