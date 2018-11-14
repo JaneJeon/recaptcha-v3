@@ -1,0 +1,13 @@
+{
+  "name": "recaptcha3",
+  "version": "0.1.0",
+  "description": "Validate reCAPTCHA v2 and v3",
+  "keywords": ["google", "recaptcha", "v2", "v3", "invisible"],
+  "main": "lib/verify.js",
+  "repository": "JaneJeon/recaptcha-v3",
+  "author": "Jane Jeon <JaneJeon9719@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
