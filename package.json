@@ -1,6 +1,6 @@
 {
   "name": "recaptcha3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Validate reCAPTCHA v2 and v3",
   "keywords": ["google", "recaptcha", "v2", "v3", "invisible"],
   "main": "lib/verify.js",
