@@ -2,9 +2,12 @@
 Protect your endpoints by securing it with a reCAPTCHA! This library supports verifying v2 *and* v3 of reCAPTCHA, and
  integrates with `express`.
 
-## Usage
-Before using this library, you must have already set the environment variables `RECAPTCHA_V2_PUBLIC` if you want to use the v2 verifier or `RECAPTCHA_V3_PUBLIC` for the v3 verifier.
+## Assumptions
+- you're passing the `req` object of a `express` handler.
+- for v3, the token obtained from front-end is sent to the backend as `token`; i.e. your AJAX body should have `{token, ...}`
+- the environment variables `RECAPTCHA_V2_PRIVATE` if using v2 and `RECAPTCHA_V3_PRIVATE` for the v3 variables must be set
 
+## Usage
 v2:
 ```javascript
 const { v2 } = require('recaptcha3')
