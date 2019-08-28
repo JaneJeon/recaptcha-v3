@@ -1,4 +1,7 @@
-# Recaptcha3 [![npm version](https://badge.fury.io/js/recaptcha3.svg)](https://badge.fury.io/js/recaptcha3)
+# Recaptcha3
+
+[![npm version](https://badge.fury.io/js/recaptcha3.svg)](https://badge.fury.io/js/recaptcha3) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=JaneJeon/recaptcha-v3)](https://dependabot.com)
+
 Protect your endpoints by securing it with a reCAPTCHA! This library supports verifying v2 *and* v3 of reCAPTCHA, and
  integrates with `express`.
 
