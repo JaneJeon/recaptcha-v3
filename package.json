@@ -18,9 +18,8 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "prettier": "^1.15.2"
+    "@janejeon/prettier-config": "^1.0.3",
+    "prettier": "^2.0.5"
   },
-  "prettier": {
-    "semi": false
-  }
+  "prettier": "@janejeon/prettier-config"
 }
